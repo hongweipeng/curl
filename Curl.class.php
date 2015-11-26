@@ -52,7 +52,7 @@ class Curl{
 		curl_setopt($this->ch_, CURLOPT_FOLLOWLOCATION,$follow);
 		return $this;
 	}
-	public function setUrl(string $url){
+	public function setUrl($url){
 		$this->init($url);
 		return $this;
 	}
